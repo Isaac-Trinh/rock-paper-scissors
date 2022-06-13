@@ -1,0 +1,69 @@
+.btn-choice {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.userDisplay {
+
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+button {
+    margin-right: 20px;
+    border-radius: 5%;
+    border: none;
+    box-shadow: 5px 2px 5px 1px rgba(0, 0, 0, 0.5);
+}
+img {
+    width: 200px;
+}
+.display img {
+    margin-left: 10px;
+}
+#user-choice, #computer-choice {
+    width: 100px;
+}
+.display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.characterDisplay {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.characterDisplay button {
+
+    margin-right: 20px;
+    margin-top: 10px;
+    border-radius: 5%;
+    border: none;
+}
+.characterDisplay img {
+    height: 150px;
+    width: auto;
+}
+#result-face {
+    width: 100px;
+}
+.homebtn {
+    
+    box-shadow: none;
+    margin-top: 45px;
+    font-size: 1.5em;
+}
+
+.unseen {
+    display: none;
+}

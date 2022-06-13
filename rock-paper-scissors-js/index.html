@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Shifumi !</title>
+</head>
+<body>
+    <div class="hometitle">
+        <h2>Choisis ton personnage !</h2>
+    </div>
+    <div class="characterDisplay">
+        
+        <button class="characterbtn"><img src="./images/ariel.PNG" alt="" id="ariel"> </button>
+        <button class="characterbtn"><img src="./images/aurore.PNG" alt="" id="aurore"></button>
+        <button class="characterbtn"><img src="./images/belle.PNG" alt="" id="belle"></button>
+        <button class="characterbtn"><img src="./images/blancheneige.PNG" alt="" id="blancheneige"> </button>
+        <button class="characterbtn"><img src="./images/cendrillon.PNG" alt="" id="cendrillon"></button>
+        <button class="characterbtn"><img src="./images/grenouille.PNG" alt="" id="grenouille"></button>
+        <button class="characterbtn"><img src="./images/raiponce.PNG" alt="" id="raiponce"> </button>
+        <button class="characterbtn"><img src="./images/jasmine.PNG" alt="" id="jasmine"> </button>
+    </div>
+
+    <div class="gameDisplay unseen">
+        <div class="userDisplay">
+
+            <div class="display">
+                <img src="#" alt="" id="user-character" class=""><span> :</span> <img src="#" alt="" id="user-choice" class="">
+            </div>  
+
+            <div class="display">
+                <img src="#" alt="" id="computer-choice" class=""> <span> :</span><img src="#" alt="" id="computer-character" class="">
+            </div>
+
+        </div>
+
+
+        <div class="display">
+            <h3 id="result"></h3><img src="#" alt="" id="result-face" class="">
+        </div>
+        
+
+        <div class="btn-choice">
+            <button class="choicebtn"><img src="./images/rock.png" alt="" id="rock"> </button>
+            <button class="choicebtn"><img src="./images/paper.png" alt="" id="paper"></button>
+            <button class="choicebtn"><img src="./images/scissors.png" alt="" id="scissors"></button>
+        </div>  
+        
+        <div class="display">
+            <button class="homebtn btn btn-secondary">Revenir au choix du personnage</button>
+        </div>
+    </div>
+
+    
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
